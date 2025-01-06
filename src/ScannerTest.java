@@ -16,5 +16,7 @@ public class ScannerTest {
         System.out.println("str = " + str);
 
         scan.nextLine(); //버퍼비우기 (스트림 비욱리)
+
+        scan.close();
     }
 }
